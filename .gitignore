@@ -1,0 +1,6 @@
+# venv folder
+.osproj/*
+# .trace heavy files
+traces/*
+storage/*
+*.blktrace
