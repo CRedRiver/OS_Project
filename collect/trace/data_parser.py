@@ -91,8 +91,8 @@ def capture_and_parse(device, duration_k, output_csv, prefix="local"):
 
 if __name__ == "__main__":
     TARGET_DEVICE = "/dev/sdd" 
-    SECONDS_TO_TRACE = 120
+    SECONDS_TO_TRACE = 3600
     # output csv path
-    OUTPUT_CSV_NAME = "/home/roofredriver/os_project/collect/data/local_trace.csv"
+    OUTPUT_CSV_NAME = "/home/roofredriver/os_project/collect/test_data/live_data.csv"
 
     capture_and_parse(TARGET_DEVICE, SECONDS_TO_TRACE, OUTPUT_CSV_NAME, prefix="local")
